@@ -29,6 +29,36 @@ const projects = [
       'Implemented MySQL as the relational data store, enabling driver assignment, route-based fare calculation, and dynamic booking operations with optimal latency.',
     ],
   },
+  {
+    title: 'News Checker System',
+    tech: 'Python, Django, REST API, NLP, React',
+    link: 'https://github.com/Shubham-741/news_checker_system',
+    details: [
+      'Developed a full-stack web application to detect and flag fake news using advanced NLP techniques and machine learning models.',
+      'Built with Django backend, RESTful API, and React frontend for real-time news verification and user-friendly experience.',
+      'Integrated third-party news sources and automated credibility scoring for robust detection.',
+    ],
+  },
+  {
+    title: 'Pill Identification System',
+    tech: 'Python, TensorFlow, OpenCV, FastAPI, React',
+    link: 'https://github.com/Shubham-741/Pill-Identification-System',
+    details: [
+      'Developed an AI-powered system for identifying pills from images using deep learning and computer vision.',
+      'Built with TensorFlow for model training, OpenCV for image processing, FastAPI for backend, and React for frontend.',
+      'Supports real-time pill recognition and information retrieval for healthcare applications.',
+    ],
+  },
+  {
+    title: 'Grammar Scoring Engine',
+    tech: 'Python, NLP, Flask, React',
+    link: 'https://github.com/Shubham-741/grammar_scoring_engine',
+    details: [
+      'Created an automated engine to score and provide feedback on English grammar in written text using NLP techniques.',
+      'Flask backend with REST API, React frontend for interactive grammar analysis and scoring.',
+      'Integrates advanced language models for robust grammar evaluation and user feedback.',
+    ],
+  },
 ];
 
 export default function ProjectCard() {
