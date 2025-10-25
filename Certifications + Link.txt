@@ -1,0 +1,60 @@
+1. Problem Solving (Basic) - HackerRank - https://www.hackerrank.com/certificates/iframe/662d380fb1d8
+2. Problem Solving (Intermediate) - HackerRank- https://www.hackerrank.com/certificates/iframe/93fa74790084
+3. Introduction To Packet Tracer  - Cisco Networking Academy- https://drive.google.com/file/d/1e_Auka7oDrsHKRcCJOvx44aAZhgdzxnS/view?usp=sharing
+4. Network Essentials- Cisco Networking Academy- https://drive.google.com/file/d/1kuPj3hnOotLuPoiB7TBXVDnTn9Gk5JvZ/view?usp=sharing
+5. AI and Climate Change- DeepLearning.AI- https://www.coursera.org/account/accomplishments/records/MCGSCNHZ6BUT
+6. Data Modeling in Power BI - Microsoft- https://www.coursera.org/account/accomplishments/records/QFNQSKC8TNY7
+7. Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization- DeepLearning.AI- https://www.coursera.org/account/accomplishments/records/QHZKPSW6RJRP
+8. Introduction to Sustainability -University of Illinois Urbana-Champaign- https://www.coursera.org/account/accomplishments/records/DGDBC4SDQBC2
+9. Python with Power BI: Analyzing Financial Data - Coursera- https://www.coursera.org/account/accomplishments/records/6MJLUY5ALM9D
+10. Urbanisation and Health - Promoting Sustainable Solutions- Coursera- https://www.coursera.org/account/accomplishments/records/2CBK3AC8MRK8
+11. What is Climate Change?- University of Colorado Boulder- https://www.coursera.org/account/accomplishments/records/GZA53EAEHVWG
+12. LAMP - Linux, Apache, MySQL, PHP in Easy Steps- Infosys Springboard- https://drive.google.com/file/d/1L5bk1bvAnvcE3hjjhSaxIwcsT_HTfYrd/view?usp=sharing
+13. Linux Fundamentals -Infosys Springboard - https://drive.google.com/file/d/1M2puDNHpHmWpogONo203xHMSE85sAbZ-/view?usp=sharing
+14. Linux Practical - App Development with Linux -Infosys Springboard - https://drive.google.com/file/d/14PVaniKBwqABRMDuL5DQSX8bnt4m1LDa/view?usp=sharing
+15. MySQL in Detail MySQL in Detail -Infosys Springboard - https://drive.google.com/file/d/1zjzGFv5rTmpRiRo0WA3Eg2YeHOtNkRRf/view?usp=sharing
+16. PHP MySQL Training Course PHP MySQL Training Course -Infosys Springboard - https://drive.google.com/file/d/12vcqDR1nkTjp3j4CKPso_8NmpIDIJCp1/view?usp=sharing
+17. Introduction to Business Intelligence- Infosys Springboard - https://drive.google.com/file/d/1RLvhQB54MM1SrynabgI-bsh2Sj1niPx4/view?usp=sharing
+18. Multidimensional Data Modeling- Infosys Springboard - https://drive.google.com/file/d/16q4oavY47zKXGBn_vFQQ0RkTXvRBJ_Kk/view?usp=sharing
+19. Introduction to High-Performance and Parallel Computing- Coursera - https://www.coursera.org/account/accomplishments/certificate/TRW9TATXZCPS
+20. Natural Language Processing with Classification and Vector Spaces - Coursera - https://www.coursera.org/account/accomplishments/certificate/E3TQ8E34L597 
+21. Natural Language Processing with Probabilistic Models - Coursera - https://www.coursera.org/account/accomplishments/certificate/URUP9ZXR4L4A
+22. Neural Networks and Deep Learning - Coursera - https://www.coursera.org/account/accomplishments/certificate/ZFAZJKB64KDM
+23. Simulation and modeling of natural processes- Coursera - https://www.coursera.org/account/accomplishments/certificate/WYGSQDJ3YXZX
+24. Specialized Models: Time Series and Survival Analysis - Coursera - https://www.coursera.org/account/accomplishments/certificate/5SNYWJX72FT6
+25. Fundamentals of Network Communication - Coursera - https://www.coursera.org/account/accomplishments/certificate/QPMZY4A6MUKU
+26. Foundations of Digital Marketing and E-commerce - Coursera - https://www.coursera.org/account/accomplishments/certificate/QWQ4X6PMYJKP
+27. Intellectual Property Law Specialization - Coursera - https://www.coursera.org/account/accomplishments/specialization/certificate/2P4FN24SHR7L
+28. Introduction to Intellectual Property - University of Pennsylvania - https://www.coursera.org/account/accomplishments/records/HLU7E6W4EN2W
+29. Copyright Law - University of Pennsylvania - https://www.coursera.org/account/accomplishments/records/7QXDSK5DT6EE
+30. Patent Law - University of Pennsylvania - https://www.coursera.org/account/accomplishments/records/Q99JXAZK6XKR
+31. Predictive Modeling and Analytics - Coursera - https://www.coursera.org/account/accomplishments/certificate/FB5XG82AR6S2
+32. The Bits and Bytes of Computer Networking - Coursera - https://www.coursera.org/account/accomplishments/certificate/3T3DSA66X8E8
+33. Trademark Law - University of Pennsylvania - https://www.coursera.org/account/accomplishments/records/GL39B93UEL9L
+34. From Likes to Leads: Interact with Customers Online - Coursera - https://www.coursera.org/account/accomplishments/certificate/G2QFLURVBY9B
+35. Introduction to Agile Testing - Infosys Springboard - https://drive.google.com/file/d/1rTLIFbiCh91YJruxmX6uS9SQMtjr6lTh/view?usp=sharing
+36. Google Ads - Measurement Certification - Google - https://skillshop.exceedlms.com/student/award/xJk2fFkoKuJ7ckxJfGue5JSn
+37. IBM Data Analyst Capstone Project - Coursera - https://www.coursera.org/account/accomplishments/certificate/52HRM86TSLSA
+38. IBM Data Analyst Specialization - Coursera - https://www.coursera.org/account/accomplishments/specialization/certificate/B77DMWU6GTLU
+39. Databases and SQL for Data Science with Python - IBM - https://www.coursera.org/account/accomplishments/records/WS2P3MRKZZX7
+40. Excel Basics for Data Analysis - IBM - https://www.coursera.org/account/accomplishments/records/R8KQ7A2KW6M7
+41. Introduction to Data Analytics - IBM - https://www.coursera.org/account/accomplishments/records/Z3T9TSAKDQJZ
+42. Python Project for Data Science - IBM - https:https://www.coursera.org/account/accomplishments/records/F9BPGK3L6PWN
+43. Python for Data Science, AI & Development - IBM - https://www.coursera.org/account/accomplishments/records/VNGXJ4J33BDL
+44. Software Engineering: Software Design and Project Management - Coursera - https://www.coursera.org/account/accomplishments/certificate/769K4HJ3H4ST
+45. Microsoft Azure Fundamentals - Infispark - https://drive.google.com/file/d/14OloHkiKvRvJvMDOPJy1dyEX3kg9fnzW/view?usp=sharing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
