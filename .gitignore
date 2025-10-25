@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lockfiles (choose one to keep if you use it)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Env files
+.env
+.env.*
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor directories and files
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Windows PowerShell history
+ConsoleHost_history.txt
+
+# Optional npm cache
+.npm
+
+# Mac files
+.Spotlight-V100
+.Trashes
+
+# PDF worker or other large binaries if you don't want them in repo
+# public/pdf.worker.min.js
