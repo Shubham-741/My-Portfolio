@@ -11,7 +11,7 @@ export default function Hero() {
         className="mb-6"
       >
         <img 
-          src="/MyImage.jpg" 
+          src="/profile_photo/MyImage.jpg" 
           alt="Shubham Profile" 
           className="w-10 h-10 rounded-full object-cover border-80 border-white shadow-lg"
         />
