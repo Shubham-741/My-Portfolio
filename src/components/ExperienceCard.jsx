@@ -6,12 +6,16 @@ const experiences = [
     company: "Samsung R&D Institute India, Delhi",
     role: "Software Engineer Trainee",
     period: "Aug 2025– Present",
-    details: [
-      "Developing and enhancing cloud-based services for Samsung TV+...",
-      "Building AI/ML-driven automation systems...",
-      "Designing scalable microservices on AWS...",
-      "Developing data analytics solutions (Python, Pandas, MySQL, Grafana)...",
-    ],
+    details : [
+  "Contributing to the Cloud Services Team to develop and enhance cloud-based infrastructure for Samsung TV+, ensuring smooth global delivery of live and on-demand video streams across TVs, mobiles, tablets, and Family Hub devices.",
+  
+  "Building AI/ML-driven automation systems to detect playback issues (looping, subtitle desync, audio glitches, pixelization, black screens, window boxing), minimizing manual QC through automation.",
+  
+  "Designing and deploying scalable, fault-tolerant microservices on AWS (EC2, S3, Lambda, CloudWatch) for real-time monitoring, automated content launches, and system benchmarking.",
+  
+  "Creating data analytics pipelines and dashboards using Python, Pandas, MySQL, and Grafana to generate actionable insights for streaming quality, user experience, and performance optimization."
+  ],
+
     logo: "/Experience/samsung.png",
     alt: "Samsung Logo",
   },
@@ -20,9 +24,13 @@ const experiences = [
     role: "Software Engineer Intern",
     period: "July 2024– January 2025",
     details: [
-      "Developed CVE Checker Tool 4.0 using Python, Django, and NVD APIs...",
-      "Automated patch verification and kernel repository analysis...",
-      "Automated report generation and Dockerized the tool...",
+      "Worked in the Automotive Business Unit to develop CVE Checker Tool 4.0 using Python, Django, and NVD APIs, maintaining a local CVE database with continuous synchronization for low-latency vulnerability lookups.",
+      
+      "Automated patch verification and kernel repository analysis pipelines to detect unpatched Linux vulnerabilities, strengthening embedded software security.",
+      
+      "Implemented automated report generation and Dockerized the tool for scalable deployment within Siemens EDA’s security framework.",
+      
+      "Integrated the tool into CI/CD pipelines with logging and alerting mechanisms, improving security monitoring efficiency and reducing manual intervention."
     ],
     logo: "/Experience/siemens.png",
     alt: "Siemens Logo",
