@@ -12,6 +12,8 @@ const experiences = [
       "Designing scalable microservices on AWS...",
       "Developing data analytics solutions (Python, Pandas, MySQL, Grafana)...",
     ],
+    logo: "/Experience/samsung.png",
+    alt: "Samsung Logo",
   },
   {
     company: "Siemens EDA",
@@ -22,6 +24,8 @@ const experiences = [
       "Automated patch verification and kernel repository analysis...",
       "Automated report generation and Dockerized the tool...",
     ],
+    logo: "/Experience/siemens.png",
+    alt: "Siemens Logo",
   },
 ];
 
@@ -35,13 +39,21 @@ export default function ExperienceCard() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: idx * 0.2 }}
-          className="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition"
+          className="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition flex items-center justify-between"
         >
-          <h3 className="text-xl font-bold text-blue-700 mb-1">{exp.company}</h3>
-          <div className="text-gray-700 font-medium">{exp.role} <span className="text-gray-400">| {exp.period}</span></div>
-          <ul className="list-disc ml-6 mt-2 text-gray-600">
-            {exp.details.map((d, i) => <li key={i}>{d}</li>)}
-          </ul>
+          <div className="flex flex-col flex-1">
+            <h3 className="text-xl font-bold text-blue-700 mb-1">{exp.company}</h3>
+            <div className="text-gray-700 font-medium">{exp.role} <span className="text-gray-400">| {exp.period}</span></div>
+            <ul className="list-disc ml-6 mt-2 text-gray-600">
+              {exp.details.map((d, i) => <li key={i}>{d}</li>)}
+            </ul>
+          </div>
+          <img
+            src={exp.logo}
+            alt={exp.alt}
+            className="ml-6 w-20 h-20 object-contain rounded"
+            style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '60px', minHeight: '60px' }}
+          />
         </motion.div>
       ))}
     </div>
