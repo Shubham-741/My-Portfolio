@@ -2,10 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = [
-  'Python', 'C++', 'Java', 'Django', 'REST APIs', 'OOP', 'System Design', 'Operating Systems',
-  'Linux/Windows Internals', 'Computer Networking', 'AI/ML', 'Data Science', 'Data Structures and Algorithms (C++)',
-  'Git', 'Docker', 'Agile (Scrum)', 'JIRA', 'MySQL', 'MongoDB',
-  'Quick Learner', 'Problem Solving', 'Self-Motivated', 'Team Collaboration', 'Integrity', 'Adaptability',
+  'Python', 'C++', 'Java', 'Django', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'Flask', 'REST APIs', 'Obeject Oriented Programming', 'System Design', 'Operating Systems',
+  'Linux/Windows Internals', 'Computer Networking', 'AI/ML', 'Data Science', 'Data Structures and Algorithms',
+  'Git', 'Docker', 'Agile (Scrum)', 'MySQL', 'MongoDB'
 ];
 
 export default function SkillList() {
