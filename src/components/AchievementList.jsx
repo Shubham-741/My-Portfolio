@@ -2,10 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const achievements = [
-  "Top 4% of the class in B.Tech (CSE). Dean’s List Award for Academic Excellence.",
-  "Rated 5 star HackerRank, 4 star CodeChef (Rating: 1825) (shubham7711).",
-  "Knight-rated on LeetCode (Rating: 2017); solved 500+ problems (shubham 778).",
-  "OGrade in Artificial Intelligence and Machine Learning. A+ Grade in Computational Thinking and Programming, Design and Analysis of Algorithms, and Information Management Systems."
+  "Top 4% of B.Tech (CSE) cohort | Dean’s List Award for Academic Excellence | CGPA: 9.63 / 10",
+  "Secured 95% in CBSE Class 10 with Merit Certificate and 91.66% in Class 12",
+   "Top 2.3% worldwide in LeetCode",
+  "Rated 5 star HackerRank and 4 star CodeChef",
+  "Knight-rated on LeetCode (Rating: 2017); solved 600+ problems.",
+ 
 ];
 
 export default function AchievementList() {
