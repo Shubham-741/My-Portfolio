@@ -5,6 +5,7 @@ import emailjs from "emailjs-com";
 const ContactMe = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
   const handleChange = (e) => {
@@ -15,23 +16,26 @@ const ContactMe = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+    setLoading(true);
 
     try {
       await emailjs.send(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-      {
-        name: form.name,
-        email: form.email,
-        message: form.message,
-      },
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-    );
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
 
       setSubmitted(true);
     } catch (err) {
       console.error("Email send failed:", err);
       setError("Oops! Something went wrong. Please try again later.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -44,7 +48,7 @@ const ContactMe = () => {
     <section
       className="py-24 px-8 sm:px-16 md:px-20 max-w-4xl mx-auto 
                  bg-gradient-to-br from-blue-100 via-white to-purple-100 
-                 rounded-2xl shadow-lg border border-gray-200"
+                 rounded-xl shadow-lg border border-gray-200"
     >
       <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 text-center text-blue-700 tracking-tight">
         Get In Touch
@@ -56,7 +60,8 @@ const ContactMe = () => {
 
       {submitted ? (
         <div className="text-green-600 text-center font-semibold text-xl py-10">
-          ✅ Thank you for your message! <br /> I’ll get back to you soon.
+          ✅ Your message has been sent successfully! <br />
+          I’ll get back to you as soon as possible. Thank you for reaching out!
         </div>
       ) : (
         <form className="space-y-8" onSubmit={handleSubmit}>
@@ -112,14 +117,22 @@ const ContactMe = () => {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-6 rounded-xl 
-                       font-bold text-xl shadow-xl hover:bg-blue-700 
-                       focus:outline-none focus:ring-4 focus:ring-blue-300 
-                       transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]
-                       flex items-center justify-center gap-3"
+            disabled={loading}
+            className={`w-full py-6 rounded-md font-bold text-xl shadow-xl 
+                       flex items-center justify-center gap-3 transition-all duration-200 
+                       ${loading ? "bg-blue-400 cursor-not-allowed" : "bg-blue-600 hover:bg-blue-700"} 
+                       text-white focus:outline-none focus:ring-4 focus:ring-blue-300 
+                       hover:scale-[1.02] active:scale-[0.98]`}
           >
-            Send Message
-            <MdSend size={26} className="inline-block" />
+            {loading ? (
+              <span className="animate-pulse text-blue-600">Sending...</span>
+            ) : (
+              <>
+                Send Message
+                <MdSend size={26} className="inline-block" />
+              </>
+            )}
+
           </button>
         </form>
       )}
