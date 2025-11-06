@@ -35,6 +35,18 @@ const experiences = [
     logo: "/Experience/siemens.png",
     alt: "Siemens Logo",
   },
+   {
+    company: "Celebal Technologies",
+    role: "Data Science Intern",
+    period: "May 2024 - July 2024",
+    details: [
+      "Developed and optimized models for ChestXRay Classification, Movie Recommendation System, Time Series Analysis, and Weather Prediction System, utilizing machine learning algorithms and data analysis techniques.",
+      
+      " Created a Power BI dashboard for Cricketers’ Performance Analysis, visualizing key performance indicators (KPIs) to provide actionable insights for performance evaluation and decision-making."
+    ],
+    logo: "/Experience/celebal.png",
+    alt: "CelebalTech Logo",
+  },
 ];
 
 export default function ExperienceCard() {
