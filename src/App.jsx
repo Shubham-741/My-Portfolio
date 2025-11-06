@@ -9,6 +9,7 @@ import EducationCard from './components/EducationCard';
 import SkillList from './components/SkillList';
 import CertificationList from './components/CertificationList';
 import AchievementList from './components/AchievementList';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -16,11 +17,11 @@ function App() {
       <Navbar />
       <main className="pt-20 pb-10 px-2 sm:px-0">
         <Hero />
-        <Section id="education" title="Education">
-          <EducationCard />
-        </Section>
         <Section id="experience" title="Experience">
           <ExperienceCard />
+        </Section>
+        <Section id="education" title="Education">
+          <EducationCard />
         </Section>
         <Section id="projects" title="Projects">
           <ProjectCard />
@@ -36,6 +37,9 @@ function App() {
         </Section>
         <Section id="resume" title="Resume">
           <ResumeViewer />
+        </Section>
+        <Section id="contact" title="Get in Touch">
+          <ContactMe />
         </Section>
       </main>
       <footer className="text-center py-6 text-gray-500 text-sm">
