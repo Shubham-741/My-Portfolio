@@ -43,7 +43,7 @@ function App() {
         </Section>
       </main>
       <footer className="text-center py-6 text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Shubham. All rights reserved.
+        &copy; {new Date().getFullYear()} Shubham Portfolio.
       </footer>
     </div>
   );
