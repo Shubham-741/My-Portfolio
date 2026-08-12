@@ -4,9 +4,10 @@ import { motion } from 'framer-motion';
 const achievements = [
   "Top 4% of B.Tech (CSE) cohort | Dean’s List Award for Academic Excellence | CGPA: 9.63 / 10",
   "Secured 95% in CBSE Class 10 with Merit Certificate and 91.66% in Class 12",
+  "GATE CSE 2026 Qualified",
    "Top 2.3% worldwide in LeetCode",
-  "Rated 5 star HackerRank and 4 star CodeChef",
-  "Knight-rated on LeetCode (Rating: 2017); solved 600+ problems.",
+  "Rated 5 star at HackerRank and 4 star at CodeChef",
+  "Knight-rated on LeetCode (Rating: 2017); solved 800+ problems.",
  
 ];
 

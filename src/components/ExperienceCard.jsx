@@ -4,18 +4,25 @@ import { motion } from 'framer-motion';
 const experiences = [
   {
     company: "Samsung R&D Institute India, Delhi",
+    role: "Software Engineer – Design & Operations Of Cloud Platforms",
+    period: "Feb 2026 – Present",
+    details: [
+      "Designed and implemented a distributed backend platform for Samsung TV+’s QC Automation using Python, Flask, Redis, MQTT, MySQL, and REST APIs, automating content validation for 4,000+ Live TV channels and VOD assets, processing 10,000+ validation jobs/day while reducing manual effort by 80%.",
+      "Built cloud-native, event-driven microservices for the QC Automation Platform using AWS EC2, Lambda, S3, SNS, RDS, CloudFront, IAM, Redis, Linux workers, and FFmpeg for asynchronous, fault-tolerant media processing.",
+      "Contributed to the Samsung Stream Monitoring System by building distributed monitoring pipelines for concurrent analysis of 4,000+ live channels, validating HLS (M3U8) playlists, MPEG-TS segments, subtitles, bitrate variants, and stream availability, achieving 92% anomaly detection accuracy while reducing incident detection time by 60%.",
+      "Built observability pipelines using Python, Datadog, CASCADA, and MySQL to analyze streaming telemetry across 4,000+ channels, enabling automated release validation, production monitoring, and rapid incident diagnosis."
+    ],
+    logo: "/Experience/samsung.png",
+    alt: "Samsung Logo",
+  },
+  {
+    company: "Samsung R&D Institute India, Delhi",
     role: "Software Engineer Trainee",
-    period: "Aug 2025– Present",
-    details : [
-  "Contributing to the Cloud Services Team to develop and enhance cloud-based infrastructure for Samsung TV+, ensuring smooth global delivery of live and on-demand video streams across TVs, mobiles, tablets, and Family Hub devices.",
-  
-  "Building AI/ML-driven automation systems to detect playback issues (looping, subtitle desync, audio glitches, pixelization, black screens, window boxing), minimizing manual QC through automation.",
-  
-  "Designing and deploying scalable, fault-tolerant microservices on AWS (EC2, S3, Lambda, CloudWatch) for real-time monitoring, automated content launches, and system benchmarking.",
-  
-  "Creating data analytics pipelines and dashboards using Python, Pandas, MySQL, and Grafana to generate actionable insights for streaming quality, user experience, and performance optimization."
-  ],
-
+    period: "Aug 2025 – Feb 2026",
+    details: [
+      "Developed scalable metadata ingestion pipelines using Python, PostgreSQL, SQL, and AWS to process high-volume Samsung TV+ content feeds supporting content discovery and delivery services.",
+      "Contributed to Samsung TV+’s Click-to-Search (CTS) by developing Computer Vision-based image retrieval models using CLIP and Vision Transformer (ViT) on 500K+ image snippets, achieving 95% retrieval accuracy. Built optimized PostgreSQL indexing for low-latency search across actors, directors, filmography, shows, and scene descriptions."
+    ],
     logo: "/Experience/samsung.png",
     alt: "Samsung Logo",
   },
