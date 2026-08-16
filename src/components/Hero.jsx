@@ -11,9 +11,9 @@ export default function Hero() {
         className="mb-6"
       >
         <img 
-          src="/profile_photo/MyImage1.png" 
+          src="/profile_photo/My Image.png" 
           alt="Shubham Profile" 
-          className="w-10 h-10 rounded-full object-cover border-80 border-white shadow-lg"
+          className="w-32 h-40 rounded-xl object-cover border-4 border-white shadow-lg"
         />
       </motion.div>
       <motion.h1
